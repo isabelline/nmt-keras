@@ -185,13 +185,13 @@ def load_parameters():
     INNER_INIT = 'orthogonal'                     # Initialization function for inner RNN matrices.
     INIT_ATT = 'glorot_uniform'                   # Initialization function for attention mechism matrices
 
-    SOURCE_TEXT_EMBEDDING_SIZE = 32              # Source language word embedding size.
+    SOURCE_TEXT_EMBEDDING_SIZE = 100              # Source language word embedding size.
     SRC_PRETRAINED_VECTORS = None                 # Path to pretrained vectors (e.g.: DATA_ROOT_PATH + '/DATA/word2vec.%s.npy' % SRC_LAN).
                                                   # Set to None if you don't want to use pretrained vectors.
                                                   # When using pretrained word embeddings. this parameter must match with the word embeddings size
     SRC_PRETRAINED_VECTORS_TRAINABLE = True       # Finetune or not the target word embedding vectors.
 
-    TARGET_TEXT_EMBEDDING_SIZE = 32               # Source language word embedding size.
+    TARGET_TEXT_EMBEDDING_SIZE = 100               # Source language word embedding size.
     TRG_PRETRAINED_VECTORS = None                 # Path to pretrained vectors. (e.g. DATA_ROOT_PATH + '/DATA/word2vec.%s.npy' % TRG_LAN)
                                                   # Set to None if you don't want to use pretrained vectors.
                                                   # When using pretrained word embeddings, the size of the pretrained word embeddings must match with the word embeddings size.
