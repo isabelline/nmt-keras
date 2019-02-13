@@ -6,10 +6,10 @@ def load_parameters():
     """
 
     # Input data params
-    TASK_NAME = 'EuTrans'                           # Task name.
+    TASK_NAME = 'WMTEn-Du'                           # Task name.
     DATASET_NAME = TASK_NAME                        # Dataset name.
-    SRC_LAN = 'es'                                  # Language of the source text.
-    TRG_LAN = 'en'                                  # Language of the target text.
+    SRC_LAN = 'en'                                  # Language of the source text.
+    TRG_LAN = 'du'                                  # Language of the target text.
     DATA_ROOT_PATH = 'examples/%s/' % DATASET_NAME  # Path where data is stored.
 
     # SRC_LAN or TRG_LAN will be added to the file names.
